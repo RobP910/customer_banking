@@ -15,6 +15,3 @@ class Account:
     def set_interest(self, interest):
         """Sets the interest gained for the account"""
         self.interest = interest
-
-    def greet(self):
-        print(f"Hello, {self.name}!")
